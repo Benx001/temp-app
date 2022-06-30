@@ -69,3 +69,50 @@
 .txtInput {
   width: 4em;
 }
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+table thead tr, table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  position: absolute;
+  box-sizing:border-box;
+  top:50%;
+  transform: translateY(-50%);
+  color: #949494;
+}
+
+#searchtemp{
+  height: 30px;
+  box-sizing:border-box;
+  padding-left: 1.5rem;
+}
+
+.wrapper {
+  position:relative;
+}
+
+.temptb{
+  overflow-y: auto;
+  height: 250px;
+}
+
+.viewrecs{
+  display: none;
+  margin-bottom: 20px;
+}
+
+#bcloseport{
+  display: none;
+}
